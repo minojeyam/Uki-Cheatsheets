@@ -1,8 +1,7 @@
 # HTML Cheat Sheet
-A reminder of HTML elements.
 
 ## Table of Contents
- - [Minimal page](#minimal-page)
+ - [Basic_template](#basic-template)
  - [Head](#head)
  - [Text content](#text-content)
    - [Headings](#headings)
@@ -25,7 +24,7 @@ A reminder of HTML elements.
    - [Page layout](#page-layout)
    - [New elements](#new-elements)
 
-## Minimal page
+## Basic Template
 ```html
 <!DOCTYPE html>
 <html>
