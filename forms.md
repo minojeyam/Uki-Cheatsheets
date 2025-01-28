@@ -168,3 +168,48 @@ For multi-line text input.
 | `id`      | Unique identifier for an element.   | Yes             | Labels, CSS, and JavaScript.       |
 | `name`    | Groups data for form submission.    | No              | Sending grouped input to the server. |
 
+#### Specialized Inputs Form
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialized Inputs Form</title>
+</head>
+<body>
+    <h1>Specialized Inputs Form</h1>
+    <form action="/submit-specialized" method="POST" enctype="multipart/form-data">
+
+        <!-- Color Picker -->
+        <label for="fav-color">Favorite Color:</label>
+        <input type="color" id="fav-color" name="fav-color"><br><br>
+
+        <!-- Range Slider -->
+        <label for="satisfaction">Satisfaction Level (1-10):</label>
+        <input type="range" id="satisfaction" name="satisfaction" min="1" max="10" value="5"><br><br>
+
+        <!-- File Upload -->
+        <label for="resume">Upload Your Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"><br><br>
+
+        <!-- Date-Time Local -->
+        <label for="appointment">Choose an Appointment Time:</label>
+        <input type="datetime-local" id="appointment" name="appointment"><br><br>
+
+        <!-- Month Selector -->
+        <label for="birth-month">Birth Month:</label>
+        <input type="month" id="birth-month" name="birth-month"><br><br>
+
+        <!-- Week Selector -->
+        <label for="work-week">Preferred Work Week:</label>
+        <input type="week" id="work-week" name="work-week"><br><br>
+
+        <!-- Hidden Input -->
+        <input type="hidden" id="user-id" name="user-id" value="12345">
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
