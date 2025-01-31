@@ -1,4 +1,4 @@
-**# Git Commands Cheatsheet**
+** Git Commands Cheatsheet**
 
 ## **1. Git Basics**
 
