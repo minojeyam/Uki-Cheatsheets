@@ -135,7 +135,7 @@ Add the following code to `index.html`:
   <!-- Footer Section -->
   <footer class="bg-blue-600 text-white py-4 mt-8">
     <div class="container mx-auto px-4 text-center">
-      <p>&copy; 2023 My Landing Page. All rights reserved.</p>
+      <p>&copy; 2025 My Landing Page. All rights reserved.</p>
     </div>
   </footer>
 </body>
