@@ -99,5 +99,3 @@
      - A to-do list where you can add and remove tasks.
 
 ---
-
-By using relatable analogies, simple definitions, and fun examples, you can spark curiosity and excitement in students, making them eager to learn more about JavaScript!
