@@ -125,7 +125,7 @@ const clearCompletedBtn = document.getElementById('clear-completed');
 const resetBtn = document.getElementById('reset');
 ```
 
-**Teaching points:** `todos` is an array (list). Each element will be an object like `{id, title, completed}`.
+**Tip:** `todos` is an array (list). Each element will be an object like `{id, title, completed}`.
 
 ---
 
@@ -195,7 +195,7 @@ function resetAll() {
 }
 ```
 
-**Teaching points:** Show how arrays and objects are used together (objects inside an array). Explain immutability pattern in `map` and `filter`.
+**Google It:** See how arrays and objects are used together (objects inside an array). Explain immutability pattern in `map` and `filter`.
 
 ---
 
@@ -282,7 +282,7 @@ clearCompletedBtn.addEventListener('click', clearCompleted);
 resetBtn.addEventListener('click', () => { if (confirm('Reset all tasks?')) resetAll(); });
 ```
 
-**Teaching tip:** Explain `preventDefault()` — why submitting a form normally reloads the page.
+**Google It:** Explain `preventDefault()` — why submitting a form normally reloads the page.
 
 ---
 
@@ -296,12 +296,6 @@ render();
 ```
 
 Open `index.html` in the browser. You should be able to add tasks, toggle them, delete them, filter and persist between refreshes.
-
----
-
-## Full single-file copy (ready-to-run)
-
-If you want to give students a single copy-paste file, use the complete version in the classroom resources (attach or paste the full HTML). **Note:** the full file includes the HTML, CSS and JS exactly in the order above.
 
 ---
 
@@ -323,35 +317,4 @@ If you want to give students a single copy-paste file, use the complete version 
 
 ---
 
-## Teaching checkpoints (for instructors)
-
-Ask students to explain in plain English:
-
-* What `todos` holds and why it's an array.
-* What a single todo object contains and why.
-* What `render()` does and why we separate UI rendering from state changes.
-* How `localStorage` helps persistence.
-
----
-
-## Next steps / extension ideas for assignments
-
-* Convert the app into separate files: `index.html`, `style.css`, `app.js`.
-* Implement drag-and-drop reordering (HTML5 Drag API).
-* Add user accounts (requires backend) and demonstrate how frontend + backend communicate.
-
----
-
-## License & sharing
-
-You may copy and share this guide with students. Encourage them to modify and break the app — breaking it is how we learn.
-
----
-
-**Happy teaching!**
-
-If you’d like, I can:
-
-* produce a downloadable `index.html` file you can hand out, or
-* split this into `index.html` + `style.css` + `app.js` for a lab exercise, or
-* make a 5-slide cheat-sheet for students summarizing the core JS concepts used here.
+**Happy Learning!**
