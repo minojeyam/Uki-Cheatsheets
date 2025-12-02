@@ -1,4 +1,4 @@
-# Build a Simple To‑Do App — Step‑by‑Step (DIY)
+# Build a Simple To‑Do App - DIY
 
 > A student-friendly, copy‑pasteable guide that walks you through building a single‑file JavaScript To‑Do app. Each step explains *why* you do it, what JS concepts it teaches, and includes small exercises.
 
